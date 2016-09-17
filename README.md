@@ -1,3 +1,7 @@
+# Joehannes UX
+All credit goes to the monokai guys
+All I did was apply a text-shadow to everything, because that is what I wanted ....
+
 # Monokai Extended Theme
 
 An extended Monokai syntax theme for the [Atom](http://atom.io/) editor, partially based on [sublime-monokai-extended](https://github.com/jonschlinkert/sublime-monokai-extended).
