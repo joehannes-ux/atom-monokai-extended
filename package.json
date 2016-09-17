@@ -1,7 +1,7 @@
 {
   "name": "monokai-extended-alpenglow",
   "theme": "syntax",
-  "version": "0.2.0",
+  "version": "0.5.0",
   "private": true,
   "description": "An extended Monokai syntax theme with neon glow",
   "repository": "https://github.com/joehannes-ux/atom-monokai-extended-alpenglow",
