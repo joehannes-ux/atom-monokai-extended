@@ -3,6 +3,7 @@ atom-text-editor, atom-text-editor .gutter,
 :host, :host .gutter {
   background-color: #222222;
   color: #f8f8f2;
+  text-shadow: 0 0 10px #f8f8f2;
 }
 
 atom-text-editor.is-focused .cursor,
@@ -22,84 +23,103 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .comment {
   color: #75715e;
+  text-shadow: 0 0 10px #75715e;
 }
 
 .string {
   color: #e6db74;
+  text-shadow: 0 0 10px #e6db74;
 }
 
 .constant.numeric {
   color: #be84ff;
+  text-shadow: 0 0 10px #be84ff;
 }
 
 .constant.language, .meta.preprocessor {
   color: #be84ff;
+  text-shadow: 0 0 10px #be84ff;
 }
 
 .constant.character, .constant.other {
   color: #be84ff;
+  text-shadow: 0 0 10px #be84ff;
 }
 
 .variable.language, .variable.other {
   color: #ffffff;
+  text-shadow: 0 0 10px #ffffff;
 }
 
 .keyword {
   color: #f92672;
+  text-shadow: 0 0 10px #f92672;
 }
 
 .storage {
   color: #f92672;
+  text-shadow: 0 0 10px #f92672;
 }
 
 .storage.type {
   font-style: italic;
   color: #66d9ef;
+  text-shadow: 0 0 10px #66d9ef;
 }
 
 .entity.name.class {
   text-decoration: underline;
   color: #a6e22e;
+  text-shadow: 0 0 10px #a6e22e;
 }
 
 .entity.other.inherited-class {
   font-style: italic;
   text-decoration: underline;
   color: #a6e22e;
+  text-shadow: 0 0 10px #a6e22e;
 }
 
 .entity.name.function {
   color: #a6e22e;
+  text-shadow: 0 0 10px #a6e22e;
 }
 
 .entity.name.instance {
   color: #66D9EF;
+  text-shadow: 0 0 10px #66D9EF;
 }
 
 .variable.parameter {
   font-style: italic;
   color: #fd971f;
+  text-shadow: 0 0 10px #fd971f;
 }
 
 .entity.name.tag {
   color: #f92672;
+  text-shadow: 0 0 10px #f92672;
 }
 
 .entity.other.attribute-name {
   color: #a6e22e;
+  text-shadow: 0 0 10px #a6e22e;
 }
 
 .support.function {
   color: #66d9ef;
+  text-shadow: 0 0 10px #66d9ef;
 }
 
 .support.constant {
   color: #66d9ef;
+  text-shadow: 0 0 10px #66d9ef;
 }
 
 .support.type, .support.class {
   font-style: italic;
   color: #66d9ef;
+  text-shadow: 0 0 10px #66d9ef;
 }
 
 .support.other.variable {
@@ -107,22 +127,27 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .string .constant {
   color: #66d9ef;
+  text-shadow: 0 0 10px #66d9ef;
 }
 
 .string.regexp {
   color: #f6aa11;
+  text-shadow: 0 0 10px #f6aa11;
 }
 
 .string .variable {
   color: #ffffff;
+  text-shadow: 0 0 10px #ffffff;
 }
 
 .punctuation.definition.variable {
   color: #ffffff;
+  text-shadow: 0 0 10px #ffffff;
 }
 
 .entity {
   color: #a6e22e;
+  text-shadow: 0 0 10px #a6e22e;
 }
 
 /* Git status gutter */
@@ -138,32 +163,38 @@ atom-text-editor .gutter .line-number.git-line-removed,
 /* General markup */
 .markup.heading {
   color: #fd971f;
+  text-shadow: 0 0 10px #fd971f;
 }
 
 .markup.italic {
   font-style: italic;
   color: #e42e70;
+  text-shadow: 0 0 10px #e42e70;
 }
 
 .markup.bold {
   font-weight: bold;
   color: #f92672;
+  text-shadow: 0 0 10px #f92672;
 }
 
 .markup.underline {
   text-decoration: underline;
   color: #a6e22e;
+  text-shadow: 0 0 10px #a6e22e;
 }
 
 .markup.quote {
   font-style: italic;
   color: #66d9ef;
+  text-shadow: 0 0 10px #66d9ef;
 }
 
 /* HTML-specific */
 .html {
   .doctype {
     color: #75715e;
+	text-shadow: 0 0 10px #75715e;
   }
 }
 
@@ -171,9 +202,11 @@ atom-text-editor .gutter .line-number.git-line-removed,
 .css {
   .entity.other.attribute-name.id {
     color: #f6aa11;
+	text-shadow: 0 0 10px #f6aa11;
 
     .entity {
       color: #f6aa11;
+	  text-shadow: 0 0 10px #f6aa11;
     }
   }
 }
@@ -183,14 +216,17 @@ atom-text-editor .gutter .line-number.git-line-removed,
   .link .entity {
     text-decoration: underline;
     color: #66d9ef;
+	text-shadow: 0 0 10px #66d9ef;
   }
 
   .raw {
     color: #ec3533;
+	text-shadow: 0 0 10px #ec3533;
   }
 
   .code .support {
     color: #7c7865;
+	text-shadow: 0 0 10px #7c7865;
   }
 }
 
@@ -198,17 +234,20 @@ atom-text-editor .gutter .line-number.git-line-removed,
 .makefile {
   .variable {
     color: #f92672;
+	text-shadow: 0 0 10px #f92672;
   }
 
   .target {
     .variable {
       color: #a6e22e;
+	  text-shadow: 0 0 10px #a6e22e;
     }
   }
 
   .prerequisites {
     .variable {
       color: #66d9ef;
+	  text-shadow: 0 0 10px #66d9ef;
     }
   }
 }
