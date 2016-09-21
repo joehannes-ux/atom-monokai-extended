@@ -1,24 +1,25 @@
 /* General Style */
-atom-text-editor, atom-text-editor .gutter,
+atom-text-editor::shadow, atom-text-editor::shadow .gutter,
 :host, :host .gutter {
   background-color: #222222;
   color: #f8f8f2;
   text-shadow: 0 0 10px #f8f8f2;
 }
 
-atom-text-editor.is-focused .cursor,
-:host.is-focused .cursor  {
-  border-color: #f8f8f0;
+atom-text-editor.is-focused::shadow .cursor
+{
+  background-color: #0fff0f !important;
+  border: 1px solid magenta;
 }
 
-atom-text-editor.is-focused .selection .region,
+atom-text-editor.is-focused::shadow .selection .region,
 :host.is-focused .selection .region {
-  background-color: #444444;
+	background-color: rgba(15,255,100,.5);
 }
 
-atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line,
+atom-text-editor.is-focused::shadow .line-number.cursor-line-no-selection, atom-text-editor.is-focused::shadow .line.cursor-line,
 :host.is-focused .line-number.cursor-line-no-selection, :host.is-focused .line.cursor-line {
-  background-color: #333333;
+  background-color: rgba(255, 0, 255, .5) ;
 }
 
 .comment {
@@ -151,9 +152,9 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 /* Git status gutter */
-atom-text-editor .gutter .line-number.git-line-added,
-atom-text-editor .gutter .line-number.git-line-modified,
-atom-text-editor .gutter .line-number.git-line-removed,
+atom-text-editor::shadow .gutter .line-number.git-line-added,
+atom-text-editor::shadow .gutter .line-number.git-line-modified,
+atom-text-editor::shadow .gutter .line-number.git-line-removed,
 :host .gutter .line-number.git-line-added,
 :host .gutter .line-number.git-line-modified,
 :host .gutter .line-number.git-line-removed {
